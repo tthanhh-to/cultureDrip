@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+
+#cdLogo {
+    height: 96px;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    font-weight: 500;
+    align-items: center;
+    font-size: 16px;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    padding-inline: 64px;
+}
+
+ul {
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    color: black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.blackButton{
+    background-color: #000;
+    color: #fff;
+    outline: 3px #000 solid;
+}
+
+.blackButton:hover {
+    background-color: #fff;
+    color: #000;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+.navMenu{
+    display: none;
+}
+
+.menuLine{
+    width: 20px;
+    height: 3px;
+    background-color: #000; 
+    margin-bottom: 4px;
+}
+
+.photoOrder{
+    display: flex;
+    justify-content: center;
+}
+
+#homeImage{
+    max-width: 90%;
+    height: auto;
+    opacity: 0.5;
+}
+
+main{
+    position: relative;
+    text-align: center;
+    color: #000;
+}
+
+.introText{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orderIntro{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    padding-bottom: 2%;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-block: 2%;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+.whiteButton{
+    background-color: #fff;
+    color: #000;
+    outline: 3px #000 solid;
+}
+
+.whiteButton:hover {
+    background-color: #000;
+    color: #fff;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+@media all and (max-width:400px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navMenu{
+        display: block;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+    }
+
+}
