@@ -15,14 +15,18 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="index.html"><img src="./images/cd.jpg" id = "cdLogo"></a>
-        <ul class="split">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Our Menu</a></li>
-            <li><a href="./about/about.html">About Us</a></li>
-            <li><a href="https://www.doordash.com/store/culture-drip-newport-beach-33093719/55113546/?gad_campaignid=12239783404&gad_source=1&gbraid=0AAAAADemgEu2Q7e13m3j4GwFy_xg7448W&gclid=Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB&gclsrc=aw.ds&ignore_splash_experience=true&kclickid=_k_Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB_k_&utm_adgroup_id=122847405048&utm_campaign=CX_US_SE_SU_GO_ACQ_RSWXXX_12239783404_RSTRNT_%20NB_ACQ_RESTR_DSARestaurant_EVG_CPAx_XXX_Y0395_EN_EN_X_DOOR_GO_SE_DSA_SOUTHRNCAL&utm_content=122847405048&utm_creative_id=591223849648&utm_keyword_id=dsa-1212951105065&utm_medium=SEMu&utm_source=Google&utm_term=" class="blackButton">Order</a></li>
+        <div class="topLogo">
+            <a href="index.html"><img src="./images/cd.jpg" id = "cdLogo"></a>
+        </div>
+        <ul class="navList" id="nav-list">
+            <li class="navItem l"><a href="index.html">Home</a></li>
+            <li class="navItem l"><a href="menu.html">Our Menu</a></li>
+            <li class="navItem l"><a href="./about/about.html">About Us</a></li>
+            <div class="navOrder">
+                <a href="https://www.doordash.com/store/culture-drip-newport-beach-33093719/55113546/?gad_campaignid=12239783404&gad_source=1&gbraid=0AAAAADemgEu2Q7e13m3j4GwFy_xg7448W&gclid=Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB&gclsrc=aw.ds&ignore_splash_experience=true&kclickid=_k_Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB_k_&utm_adgroup_id=122847405048&utm_campaign=CX_US_SE_SU_GO_ACQ_RSWXXX_12239783404_RSTRNT_%20NB_ACQ_RESTR_DSARestaurant_EVG_CPAx_XXX_Y0395_EN_EN_X_DOOR_GO_SE_DSA_SOUTHRNCAL&utm_content=122847405048&utm_creative_id=591223849648&utm_keyword_id=dsa-1212951105065&utm_medium=SEMu&utm_source=Google&utm_term="class="blackButton navItem"">Order</a>
+            </div>
         </ul>
-        <div class="navMenu">
+        <div class="navMenu" id="toggle-menu">
             <div class="menuLine"></div>
             <div class="menuLine"></div>
             <div class="menuLine"></div>
@@ -34,24 +38,27 @@
             <img src="./images/hpSample.jpg" id = "homeImage">
             <div class="introText">
                 <h1>Coffee with a Culture</h1>
-                <p>Welcome! Culture Drip is a Vietnamese coffee brand dedicated to bringing a richer, darker, stronger coffee with flavored cream foam to coffee lovers.</p>
-                <!-- <div class="orderIntro"><a href="https://www.doordash.com/store/culture-drip-newport-beach-33093719/55113546/?gad_campaignid=12239783404&gad_source=1&gbraid=0AAAAADemgEu2Q7e13m3j4GwFy_xg7448W&gclid=Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB&gclsrc=aw.ds&ignore_splash_experience=true&kclickid=_k_Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB_k_&utm_adgroup_id=122847405048&utm_campaign=CX_US_SE_SU_GO_ACQ_RSWXXX_12239783404_RSTRNT_%20NB_ACQ_RESTR_DSARestaurant_EVG_CPAx_XXX_Y0395_EN_EN_X_DOOR_GO_SE_DSA_SOUTHRNCAL&utm_content=122847405048&utm_creative_id=591223849648&utm_keyword_id=dsa-1212951105065&utm_medium=SEMu&utm_source=Google&utm_term=" class="order">Order</a></div> -->
-                <li class="orderIntro"><a href="https://www.doordash.com/store/culture-drip-newport-beach-33093719/55113546/?gad_campaignid=12239783404&gad_source=1&gbraid=0AAAAADemgEu2Q7e13m3j4GwFy_xg7448W&gclid=Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB&gclsrc=aw.ds&ignore_splash_experience=true&kclickid=_k_Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB_k_&utm_adgroup_id=122847405048&utm_campaign=CX_US_SE_SU_GO_ACQ_RSWXXX_12239783404_RSTRNT_%20NB_ACQ_RESTR_DSARestaurant_EVG_CPAx_XXX_Y0395_EN_EN_X_DOOR_GO_SE_DSA_SOUTHRNCAL&utm_content=122847405048&utm_creative_id=591223849648&utm_keyword_id=dsa-1212951105065&utm_medium=SEMu&utm_source=Google&utm_term=" class="blackButton">Order</a></li>
-
+                <p>Welcome! Culture Drip is a Vietnamese coffee brand dedicated to bringing a richer, darker, stronger coffee with flavored cream<br>foam to coffee lovers.</p>
+                <a href="https://www.doordash.com/store/culture-drip-newport-beach-33093719/55113546/?gad_campaignid=12239783404&gad_source=1&gbraid=0AAAAADemgEu2Q7e13m3j4GwFy_xg7448W&gclid=Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB&gclsrc=aw.ds&ignore_splash_experience=true&kclickid=_k_Cj0KCQjwwZDFBhCpARIsAB95qO1CxnaESgdwWVjGKI4FvhJKNIgF0CaVJiQ9z3XqlI0GkYXHlNUJGHEaAh4tEALw_wcB_k_&utm_adgroup_id=122847405048&utm_campaign=CX_US_SE_SU_GO_ACQ_RSWXXX_12239783404_RSTRNT_%20NB_ACQ_RESTR_DSARestaurant_EVG_CPAx_XXX_Y0395_EN_EN_X_DOOR_GO_SE_DSA_SOUTHRNCAL&utm_content=122847405048&utm_creative_id=591223849648&utm_keyword_id=dsa-1212951105065&utm_medium=SEMu&utm_source=Google&utm_term=" class="blackButton orderIntro">Order</a>
             </div>
         </div>
         <div class="menuDes">
             <h2>Culture Drip</h2>
-            <h1>Discover Our Unique Coffee Shop Experience</h1>
-            <p>At our coffee shop, we prioritize quality and sustainability. Enjoy a delightful selection of organic ingredients and artisanal pastries.</p>
-            <li><a href="menu.html" class="whiteButton">Menu</a></li>
+            <h1>Discover Our Unique<br>Coffee Shop Experience</h1>
+            <p>At our coffee shop, we prioritize quality and sustainability. Enjoy a delightful selection <br>of organic ingredients and artisanal pastries.</p>
         </div>
-        <div class="connect">
-            <h1>Stay Connected with Our Coffee Community</h1>
-            <p>Join us for the best brews and a cozy atmosphere.</p>
-            <li><a href="faq.html" class="blackButton">Order</a></li>
-            <li><a href="menu.html" class="whiteButton">Order</a></li>
+        <div class="menuImgs">
+            <img src="./images/cdPhin.jpg" id = "menuImg">
+            <img src="./images/cdPhin.jpg" id = "menuImg">
+            <img src="./images/cbChill.jpg" id = "menuImg">
+        </div>
 
+        <a href="menu.html" class="whiteButton" id="menuButton">Menu</a>
+        <div class="connect">
+            <h1>Stay Connected<br>with Our Coffee<br>Community</h1>
+            <p>Join us for the best brews and a cozy atmosphere.</p>
+            <a href="faq.html" class="blackButton">Subscribe</a>
+            <a href="menu.html" class="whiteButton">Contact</a>
         </div>
     </main>
     <script type="text/javascript" src="./src/app.js"></scriptsrc></script>
