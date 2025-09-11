@@ -18,7 +18,7 @@
     height: 120px;
     font-weight: 500;
     align-items: center;
-    font-size: 16px;
+    font-size: 1.5vw;
     position: sticky;
     top:0;
     z-index: 999;
@@ -116,9 +116,13 @@ h1{
 }
 
 h2{
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: 600;
     padding-block: 2%;
+}
+
+h3{
+    font-size: 2vw;
 }
 
 p{
@@ -129,6 +133,12 @@ p{
 .menuDes{
     display: flex;
     flex-direction: column;
+    padding-block: 2%;
+}
+
+.menuItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-block: 2%;
 }
 
@@ -145,8 +155,6 @@ p{
     outline: 3px #000 solid;
     text-decoration: none;
     padding: 10px 30px;
-    margin-block: 2%;
-    margin-inline: 1%;
 }
 
 .whiteButton:visited{
@@ -162,18 +170,25 @@ p{
     padding-block: 2%;
 }
 
+#subButton{
+    margin-inline: 1%;
+}
+#contButton{
+    margin-inline: 1%;
+}
 @media all and (max-width:710px){
     .navbar{
         flex-direction: column;
         padding-inline: 4%;
         background-color: #fff;
+        height: 80px;
     }
 
     .navMenu{
         display: block;
         position: absolute;
-        right: 15px;
-        top: 15px;
+        right: 24px;
+        top: 24px;
     }
 
     .navList{
@@ -188,12 +203,17 @@ p{
 
     .navList .navItem.l{
         display: block;
+        font-size: 2.5vw;
     }
 
     .topLogo{
         width: 100%;
-        margin-top: 10px;
-        position:static;
+        margin-top: 8px;
+        position: static;
+    }
+
+    #cdLogo{
+        height: 64px;
     }
 
     li a{
@@ -211,8 +231,34 @@ p{
     a.blackButton.navItem{
         text-align: center;
         width: 70%;
+        font-size: 2.5vw;
     }
+
     .active{
     display: block;
     }
+
+    .whiteButton{
+        font-size: 2vw;
+        padding: 6px 12px;
+        outline-width: 1.5px;
+    }
+    .blackButton{
+        font-size: 2vw;
+        padding: 6px 12px;
+        outline-width: 1.5px;
+    }
+
+    .introText{
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menuItems{
+        display: inline-block;
+    }
+
 }
