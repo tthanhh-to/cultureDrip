@@ -192,6 +192,9 @@ p{
     margin-bottom: 24px;
 
 }
+.catDes{
+    font-size: 1.25vw;
+}
 .itemGrid{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -201,8 +204,24 @@ p{
 .itemDes{
     font-size: 1vw;
 }
-
-
+/* about page */
+.aboutIntro{
+    width: 75%;
+    margin: 0 auto;
+}
+#cdPhin{
+    max-width: 50%;
+}
+.brew{
+    padding-block: 2%;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.brewDes{
+    padding-right: 5%;
+    align-self: center;
+}
 /* footer */
 footer {
     margin-top: 80px;
@@ -243,6 +262,7 @@ hr.solid {
         padding-inline: 4%;
         background-color: #fff;
         height: 80px;
+
     }
     .navMenu{
         display: block;
@@ -292,7 +312,7 @@ hr.solid {
     }
 
     .active{
-    display: block;
+        display: block;
     }
 
     .whiteButton{
@@ -334,6 +354,12 @@ hr.solid {
         margin-inline: 24px;
     }
 
+    .catDes{
+        font-size: 3vw;
+        width: 70%;
+        margin: 0 auto;
+
+    }
     .itemGrid{
         display: grid;
         padding-block: 2%;
