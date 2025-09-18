@@ -235,8 +235,15 @@ hr.solid {
 }
 
 .footEle{
+    padding-block: 2%;
     width: 90%;
     margin: 0 auto;
+}
+
+.footerLink{
+    font-size: 1.5vw;
+    color: #000;
+    text-align: left;
 }
 
 /* nav adjustments for mobile */
@@ -371,4 +378,9 @@ hr.solid {
     .itemDes{
         font-size: 2.5vw;
     }
+    .footerLink{
+    font-size: 1.5vw;
+    color: #000;
+    text-align: left;
+}
 }
