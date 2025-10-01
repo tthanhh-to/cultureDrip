@@ -229,17 +229,22 @@ footer {
 }
 /* Solid border */
 hr.solid {
-  border-top: 2px solid #bbb;
-  width: 90%;
-  margin: 0 auto;
+    border-top: 2px solid #bbb;
+    width: 90%;
+    margin: 0 auto;
 }
-
+.loca{
+    display: flex;
+    column-gap: 10vw;
+}
 .footEle{
     padding-block: 2%;
     width: 90%;
     margin: 0 auto;
 }
-
+a.footerLink{
+    display: block;
+}
 .footerLink{
     font-size: 1.5vw;
     color: #000;
@@ -269,7 +274,6 @@ hr.solid {
         padding-inline: 4%;
         background-color: #fff;
         height: 80px;
-
     }
     .navMenu{
         display: block;
@@ -278,7 +282,7 @@ hr.solid {
         top: 16px;
     }
     .navList{
-        width: 108vw;
+        width: 100vw;
         background-color: #fff;
         padding-bottom: 24px;
         outline-width: 1px;
@@ -378,9 +382,8 @@ hr.solid {
     .itemDes{
         font-size: 2.5vw;
     }
-    .footerLink{
-    font-size: 1.5vw;
-    color: #000;
-    text-align: left;
-}
+
+    footer{
+        margin: 24px;
+    }
 }
