@@ -204,6 +204,10 @@ p{
 .itemDes{
     font-size: 1vw;
 }
+.itemTitle{
+    font-size: 2vw;
+    text-align: auto;
+}
 /* about page */
 .aboutIntro{
     width: 75%;
